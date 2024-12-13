@@ -1,7 +1,8 @@
 import React from 'react';
+import { setLocalStorage } from '../../utils/localStorage';
 
-const header = () => {
-  
+const header = (props) => {
+ 
   // const [username, setUsername] = useState('')
 
   // if(!data){
@@ -12,7 +13,8 @@ const header = () => {
 
   const logOutUser = ()=>{
     localStorage.setItem('loggedInUser', '')
-    window.location.reload()
+    // window.location.reload()
+   props.changeUser('')
   }
 
   return (
