@@ -1,7 +1,7 @@
 import React from 'react';
 import { setLocalStorage } from '../../utils/localStorage';
 
-const header = (props) => {
+const Header = (props) => {
  
   // const [username, setUsername] = useState('')
 
@@ -28,4 +28,4 @@ const header = (props) => {
   );
 }
 
-export default header;
+export default Header;

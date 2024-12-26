@@ -28,7 +28,7 @@ const AllTask = () => {
           <h2 className='text-lg font-medium text-red-600 rounded w-1/5'>{elem.firstName} </h2>
           <h3 className='text-lg font-medium text-blue-600 rounded w-1/5'>{elem.taskCount.newTask}</h3>
           <h5 className='text-lg font-medium text-white-600 rounded w-1/5' >{elem.taskCount.active}</h5> 
-          <h5 className='text-lg font-medium text-red-600 rounded w-1/5' >{elem.taskCount.completed}</h5> 
+          <h5 className='text-lg font-medium text-red-600 rounded w-1/5' >{elem.taskCount.copmleted}</h5> 
           <h5 className='text-lg font-medium text-white-600 rounded w-1/5' >{elem.taskCount.failed}</h5> 
         
         
